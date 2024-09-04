@@ -13,14 +13,14 @@ const router = createRouter({
       path: '/product',
       name: 'product',
       component: () => import('../views/ProductView.vue'),
-      props: () => {
-        return {
-          nombre: 'Desayuno',
-          descripcion: 'Contamos con desayunos nutrivivos y deliciosos',
-          precio: 2000,
-          cantidad: 'Para dos personas'
+      children: [
+        {
+          path: ':id',
+          name: 'productCategory',
+          component: () => import('../views/ProductCategory.vue'),
+          props: true
         }
-      }
+      ]
     },
     {
       path: '/contact',

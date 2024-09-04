@@ -5,40 +5,40 @@
       "nombre": "Bebidas",
       "descripcion": "LoreM ipsum",
       "img": "/src/assets/img/bebidas.jpg",
-      "precio": 10.99,
-      "cantidad": 3
+      "precio": 1300,
+      "cantidad": "Para dos personas"
     },
     {
       "id": 1,
       "nombre": "Dulces",
       "descripcion": "LoreM ipsum",
       "img": "/src/assets/img/dulces.jpg",
-      "precio": 5.49,
-      "cantidad": 1
+      "precio": 2300,
+      "cantidad": "Para dos personas"
     },
     {
       "id": 2,
       "nombre": "Empanadas",
       "descripcion": "LoreM ipsum",
       "img": "/src/assets/img/empanadas.jpg",
-      "precio": 2.99,
-      "cantidad": 3
+      "precio": 2500,
+      "cantidad": "Para dos personas"
     },
     {
       "id": 3,
       "nombre": "Verduras",
       "descripcion": "LoreM ipsum",
       "img": "/src/assets/img/verduras.jpg",
-      "precio": 3.75,
-      "cantidad": 1
+      "precio": 4500,
+      "cantidad": "Para dos personas"
     },
     {
       "id": 4,
       "nombre": "Colaciones",
       "descripcion": "LoreM ipsum",
       "img": "/src/assets/img/colaciones.jpg",
-      "precio": 7.99,
-      "cantidad": 8
+      "precio": 6990,
+      "cantidad": "Para dos personas"
     }
   ]
 }
