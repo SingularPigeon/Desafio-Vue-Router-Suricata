@@ -1,4 +1,4 @@
-# Desafio Vue Router
+# Desafio Vue Router Suricate
 
 Aplicar conocimientos de Vue Router.
 
@@ -7,7 +7,7 @@ Modificar la navegación entre páginas mediante el uso de Vue Router. En el Hom
 ---
 
 ![](/src/assets/img/preview-vue-router.png)
-
+___
 ### Requisitos
 
 - **VueJs**
