@@ -1,35 +1,24 @@
-# base-vue
+# Desafio Vue Router
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicar conocimientos de Vue Router.
 
-## Recommended IDE Setup
+Modificar la navegación entre páginas mediante el uso de Vue Router. En el Home se muestran las card de las categorias de productos, las cuales llevan a la la página de cada categoría y en la página de cada categoría se muestran los productos correspondientes.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Customize configuration
+![](/src/assets/img/preview-vue-router.png)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Requisitos
 
-## Project Setup
+- **VueJs**
+- **Vue Router**
+- **Google Fonts**
+- **Fontawesome**
+- **Bootstrap**
 
-```sh
-npm install
-```
+---
 
-### Compile and Hot-Reload for Development
+### Autores
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- **Desarolladora:[Paloma Rivera](https://github.com/**SingularPigeon)\*\*
+- **Diseño: [Bootcamp Desafío Latam](desafiolatam.com)**

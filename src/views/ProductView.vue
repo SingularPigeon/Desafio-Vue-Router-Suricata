@@ -1,6 +1,10 @@
+/** Mi idea era que de cada card del home se accedieria a la categoría de productos con sus card
+(bebidas, desayunos,etc), pero no pude resolverlo 🫡 */
+
 <script>
 import SingleCard from '@/components/SingleCard.vue'
 import productData from '@/productos-data.json'
+
 export default {
   name: 'ProductView',
   components: {
@@ -31,15 +35,19 @@ export default {
   },
   methods: {
     volverAlHome() {
-      return this.$router.push({ name: 'inicio' })
+      return this.$router.push({ name: 'home' })
     }
   }
 }
 </script>
 
 <template>
-  <section class="container" id="productos">
+  <section class="container text-center" id="productos">
     <h1 class="text-center">Nuestros Productos</h1>
+    <button class="btn btn-secondary border-0 text-light bg-suricata mb-5" @click="volverAlHome">
+      Volver al inicio
+    </button>
+
     <div class="row">
       <!-- primera -->
 
@@ -53,6 +61,5 @@ export default {
         :cantidad="product.cantidad"
       />
     </div>
-    <button @click="volverAlHome">Volver al inicio</button>
   </section>
 </template>
